@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VENT® | Real Estate & Property</title>
+
+    <meta name="description" content="Discover exceptional properties with VENT Real Estate.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="header" id="header">
+
+    <a href="#home" class="logo">
+        VENT<span>®</span>
+    </a>
+
+    <nav class="nav" id="nav">
+
+        <a href="#home" class="active">Home</a>
+
+        <a href="#properties">Properties</a>
+
+        <a href="#about">About</a>
+
+        <a href="#services">Services</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <a href="#contact" class="header-btn">
+        Let's Talk <span>↗</span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn"
+        aria-label="Open menu"
+        aria-expanded="false">
+
+        <span></span>
+        <span></span>
+
+    </button>
+
+</header>
+
+
+<main>
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+
+    <div class="hero-top">
+
+        <span class="dot"></span>
+
+        <p>REAL ESTATE / PROPERTY / LIVING</p>
+
+    </div>
+
+
+    <div class="hero-content">
+
+        <h1>
+            Find a place.<br>
+            Build a <em>life.</em><br>
+            Make it yours<span class="olive">.</span>
+        </h1>
+
+
+        <div class="hero-side">
+
+            <div class="star">✳</div>
+
+            <p>
+                More than just properties.
+                Discover spaces where your
+                next chapter begins.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-bottom">
+
+        <p>
+            Discover exceptional spaces.<br>
+            Find somewhere to truly belong.
+        </p>
+
+        <a href="#properties" class="scroll-btn">
+            ↓
+        </a>
+
+    </div>
+
+
+    <div class="hero-image">
+
+        <img src="./Vent1.jpg"
+             alt="Beautiful modern luxury property">
+
+        <div class="image-label">
+
+            <span>01 / FEATURED PROPERTY</span>
+
+            <span>EXPLORE ↗</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROPERTIES -->
+
+<section class="properties section" id="properties">
+
+    <div class="section-top">
+
+        <div>
+
+            <span class="eyebrow">
+                DISCOVER YOUR SPACE
+            </span>
+
+            <h2>
+                Selected <em>properties.</em>
+            </h2>
+
+        </div>
+
+        <p>
+            A curated collection of spaces
+            designed for different ways of living.
+        </p>
+
+    </div>
+
+
+    <div class="property-filters">
+
+        <button class="filter-btn active" data-filter="all">
+            All properties
+        </button>
+
+        <button class="filter-btn" data-filter="house">
+            Houses
+        </button>
+
+        <button class="filter-btn" data-filter="apartment">
+            Apartments
+        </button>
+
+        <button class="filter-btn" data-filter="interior">
+            Interiors
+        </button>
+
+    </div>
+
+
+    <div class="property-grid">
+
+
+        <!-- PROPERTY 1 -->
+
+        <article class="property-card" data-category="house">
+
+            <div class="property-image">
+
+                <img src="./Vent2.jpg"
+                     alt="Luxury modern house">
+
+                <span class="property-tag">FOR SALE</span>
+
+                <span class="property-number">01</span>
+
+            </div>
+
+            <div class="property-info">
+
+                <div>
+
+                    <h3>The Modern Residence</h3>
+
+                    <p>Luxury House · Modern Design</p>
+
+                </div>
+
+                <span class="property-arrow">↗</span>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROPERTY 2 -->
+
+        <article class="property-card" data-category="apartment">
+
+            <div class="property-image">
+
+                <img src="./Vent3.jpg"
+                     alt="Contemporary apartment">
+
+                <span class="property-tag">FOR RENT</span>
+
+                <span class="property-number">02</span>
+
+            </div>
+
+            <div class="property-info">
+
+                <div>
+
+                    <h3>The Urban Apartment</h3>
+
+                    <p>Apartment · Contemporary</p>
+
+                </div>
+
+                <span class="property-arrow">↗</span>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROPERTY 3 -->
+
+        <article class="property-card" data-category="interior">
+
+            <div class="property-image">
+
+                <img src="./Vent4.jpg"
+                     alt="Elegant living room">
+
+                <span class="property-tag">INTERIOR</span>
+
+                <span class="property-number">03</span>
+
+            </div>
+
+            <div class="property-info">
+
+                <div>
+
+                    <h3>Living Spaces</h3>
+
+                    <p>Interior · Minimal Living</p>
+
+                </div>
+
+                <span class="property-arrow">↗</span>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROPERTY 4 -->
+
+        <article class="property-card" data-category="house">
+
+            <div class="property-image">
+
+                <img src="./Vent5.jpg"
+                     alt="Beautiful residential property">
+
+                <span class="property-tag">FEATURED</span>
+
+                <span class="property-number">04</span>
+
+            </div>
+
+            <div class="property-info">
+
+                <div>
+
+                    <h3>The Quiet Escape</h3>
+
+                    <p>Residential · Private Living</p>
+
+                </div>
+
+                <span class="property-arrow">↗</span>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROPERTY 5 -->
+
+        <article class="property-card" data-category="interior">
+
+            <div class="property-image">
+
+                <img src="./Vent6.jpg"
+                     alt="Beautiful bedroom interior">
+
+                <span class="property-tag">INTERIOR</span>
+
+                <span class="property-number">05</span>
+
+            </div>
+
+            <div class="property-info">
+
+                <div>
+
+                    <h3>Comfort Collection</h3>
+
+                    <p>Bedroom · Modern Interior</p>
+
+                </div>
+
+                <span class="property-arrow">↗</span>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROPERTY 6 -->
+
+        <article class="property-card" data-category="apartment">
+
+            <div class="property-image">
+
+                <img src="./Vent7.jpg"
+                     alt="Modern architectural property">
+
+                <span class="property-tag">FOR SALE</span>
+
+                <span class="property-number">06</span>
+
+            </div>
+
+            <div class="property-info">
+
+                <div>
+
+                    <h3>The Signature Space</h3>
+
+                    <p>Apartment · Architecture</p>
+
+                </div>
+
+                <span class="property-arrow">↗</span>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+
+    <div class="properties-bottom">
+
+        <span>06 SELECTED SPACES</span>
+
+        <span>VENT® COLLECTION / 2026</span>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about section" id="about">
+
+    <div class="about-left">
+
+        <span class="eyebrow">A LITTLE ABOUT US</span>
+
+        <h2>
+            Spaces that<br>
+            speak to <em>you.</em>
+        </h2>
+
+    </div>
+
+
+    <div class="about-right">
+
+        <p class="about-intro">
+
+            We believe finding a property should
+            feel just as exciting as living in it.
+
+        </p>
+
+        <p>
+
+            At VENT, we celebrate thoughtful spaces,
+            beautiful architecture and the feeling
+            of finding somewhere you can call home.
+
+            From modern apartments to exceptional
+            residential properties, every space
+            has a story worth discovering.
+
+        </p>
+
+        <a href="#contact" class="text-link">
+            GET TO KNOW US ↗
+        </a>
+
+    </div>
+
+
+    <div class="about-image">
+
+        <img src="./Vent8.jpg"
+             alt="VENT property collection">
+
+        <span>DESIGNED FOR LIVING.</span>
+
+    </div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section class="services section" id="services">
+
+    <div class="services-heading">
+
+        <span class="eyebrow">WHAT WE DO</span>
+
+        <h2>
+            Our <em>expertise.</em>
+        </h2>
+
+    </div>
+
+
+    <div class="service-list">
+
+
+        <div class="service-item">
+
+            <span>01</span>
+
+            <h3>Property Sales</h3>
+
+            <p>Discover spaces worth investing in.</p>
+
+            <span class="service-arrow">↗</span>
+
+        </div>
+
+
+        <div class="service-item">
+
+            <span>02</span>
+
+            <h3>Property Rentals</h3>
+
+            <p>Find the right space for your lifestyle.</p>
+
+            <span class="service-arrow">↗</span>
+
+        </div>
+
+
+        <div class="service-item">
+
+            <span>03</span>
+
+            <h3>Property Management</h3>
+
+            <p>Thoughtful care for your properties.</p>
+
+            <span class="service-arrow">↗</span>
+
+        </div>
+
+
+        <div class="service-item">
+
+            <span>04</span>
+
+            <h3>Real Estate Consulting</h3>
+
+            <p>Make informed property decisions.</p>
+
+            <span class="service-arrow">↗</span>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact section" id="contact">
+
+    <span class="eyebrow">
+        LET'S START SOMETHING
+    </span>
+
+    <h2>
+        Your next chapter<br>
+        starts <em>here.</em>
+    </h2>
+
+    <p>
+        Looking for a property or simply want
+        to know more? We'd love to hear from you.
+    </p>
+
+    <a href="mailto:hello@ventrealestate.com"
+       class="contact-btn">
+
+        Get in touch <span>↗</span>
+
+    </a>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <a href="#home" class="footer-logo">
+            VENT<span>®</span>
+        </a>
+
+        <p>
+            A different perspective<br>
+            on finding your space.
+        </p>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>© 2026 VENT. ALL RIGHTS RESERVED.</span>
+
+        <div>
+
+            <a href="#contact">INSTAGRAM</a>
+
+            <a href="#contact">FACEBOOK</a>
+
+            <a href="#home">BACK TO TOP ↑</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</main>
+
+
+<script src="./script.js"></script>
+
+</body>
+</html>
